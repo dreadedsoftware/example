@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Scala
+Bundle-SymbolicName: com.dreadedsoftware.example.eclipse.plugin.scala;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: com.dreadedsoftware.example.eclipse.plugin.scala.Activator
+Bundle-Vendor: DREADEDSOFTWARE
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.scala-ide.scala.library
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: bin/,
+ .
